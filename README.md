@@ -2,7 +2,7 @@
 
 **GitOps-driven Multi-cloud Infrastructure Drift Detection & Policy Enforcement Engine**
 
-[![CI](https://github.com/yourusername/terrapulse/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/terrapulse/actions)
+[![CI](https://github.com/KabirMoulana/terrapulse/actions/workflows/ci.yml/badge.svg)](https://github.com/KabirMoulana/terrapulse/actions)
 [![OPA Policies](https://img.shields.io/badge/OPA-Policy%20Tests-blue)](policies/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -53,7 +53,7 @@ TerraPulse continuously scans AWS, GCP, and Azure resources, evaluates them agai
 ## Quick Start
 
 ```bash
-git clone https://github.com/yourusername/terrapulse
+git clone https://github.com/KabirMoulana/terrapulse
 cd terrapulse
 
 # Run the agent locally against your AWS account
@@ -99,8 +99,8 @@ Agents are released as **signed, multi-platform binaries** via goreleaser + cosi
 
 ```bash
 # Download and verify
-curl -LO https://github.com/yourusername/terrapulse/releases/latest/download/terrapulse-agent_linux_amd64.tar.gz
-curl -LO https://github.com/yourusername/terrapulse/releases/latest/download/checksums.txt
+curl -LO https://github.com/KabirMoulana/terrapulse/releases/latest/download/terrapulse-agent_linux_amd64.tar.gz
+curl -LO https://github.com/KabirMoulana/terrapulse/releases/latest/download/checksums.txt
 
 # Verify signature (supply chain security)
 cosign verify-blob \

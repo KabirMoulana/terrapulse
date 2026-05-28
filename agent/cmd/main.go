@@ -8,9 +8,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/yourusername/terrapulse/agent/internal/publisher"
-	"github.com/yourusername/terrapulse/agent/internal/scanner"
-	"github.com/yourusername/terrapulse/agent/internal/reconciler"
+	"github.com/KabirMoulana/terrapulse/agent/internal/publisher"
+	"github.com/KabirMoulana/terrapulse/agent/internal/scanner"
+	"github.com/KabirMoulana/terrapulse/agent/internal/reconciler"
 )
 
 func main() {

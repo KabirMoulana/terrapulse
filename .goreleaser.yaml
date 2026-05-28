@@ -62,7 +62,7 @@ sboms:
 
 release:
   github:
-    owner: yourusername
+    owner: KabirMoulana
     name: terrapulse
   name_template: "v{{.Version}}"
   draft: false
